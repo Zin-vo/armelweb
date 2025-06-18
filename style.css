@@ -4,7 +4,6 @@ body {
     background-color: azure;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0%;
 }
 
 .dark-mode {
@@ -436,7 +435,7 @@ div .p4 {
      }
      to{
         opacity: 1;
-        transform: translateX(30px);
+        transform: translateX(1px);
      }
 }
 
@@ -454,7 +453,7 @@ div .p4 {
      }
      to{
         opacity: 1;
-        transform: translateX(30px);
+        transform: translateX(1px);
      }
 }
 
@@ -471,7 +470,7 @@ div .p4 {
      }
      to{
         opacity: 1;
-        transform: translateX(30px);
+        transform: translateX(1px);
      }
 }
 
