@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Computer Engineering Quiz</title>
+  <link rel="stylesheet" href="coe.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Computer Engineering Quiz</h1>
+    <div id="question-container">
+      <p id="question">Loading question...</p>
+      <div id="answers" class="btn-grid"></div>
+    </div>
+    <button id="next-btn" class="next-btn">Next Question</button>
+    <p id="score">Score: 0</p>
+  </div>
+
+<div id="congrats-container" class="hidden">
+  <h1 class="congrats-text">🎉 Congratulations! 🎉</h1>
+  <button onclick="restartQuiz()">Play Again</button>
+  <canvas id="confetti-canvas"></canvas>
+</div>
+
+<div class="video-background">
+    <video autoplay muted loop playsinline>
+      <source src=C:\Users\Armel\OneDrive\Documents\Millionare\bgvideo\mindconnect-bg.mp4 type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script src="coe.js"></script>
+</body>
+</html>
