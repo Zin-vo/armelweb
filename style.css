@@ -79,20 +79,25 @@ body {
     
     }
 
-    .dmlm  {
-    margin-left: 80px;
+.dmlm  {
+    margin-left: 40px;
     border-radius: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
     color: black;
+    position: relative;
+    z-index: 2;
+
 }
 
 .dml  {
-    margin-left: -30px;
+    margin-left: -20px;
     border-radius: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: black;
     color: white;
+    position: absolute;
+    z-index: 1;
 }
     
     
@@ -140,11 +145,12 @@ header h1 a:hover {
 }
 
 .dmlm  {
-    margin-left: 80px;
+    margin-left: 40px;
     border-radius: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
     color: black;
+    position: relative;
 }
 
 .dml  {
@@ -153,6 +159,7 @@ header h1 a:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: black;
     color: white;
+    position: absolute;
 }
 
 .landing {
