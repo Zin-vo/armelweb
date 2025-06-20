@@ -414,8 +414,8 @@ div .p4 {
 
 }
 .submit {
-    background-color: aqua;
-    color: blue; 
+    background-color: black;
+    color: white; 
     font-size: 20px; 
     width: 100px; 
     height: 50px;
@@ -428,8 +428,8 @@ div .p4 {
 }
 
 .submit:hover {
-    background-color: black;
-    color: white; 
+    background-color: white;
+    color: black; 
 }
 
 .fb {
@@ -505,12 +505,7 @@ div .p4 {
         transform: translateX(1px);
      }
 }
-
-.bgim {
-
-}
  
-
 
  .submit {
     font-size: 20px;
@@ -528,6 +523,31 @@ div .p4 {
   }
 
 
-  }
+/*hover*/
+
+.html:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.proj:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.fb:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.insta:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
 
 
