@@ -518,7 +518,14 @@ div .p4 {
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
   }
+
+  .html {
+
+    box-shadow:; /* Adjust values for glow intensity */
   
+    padding: 0px; /* Optional padding for better visual effect */
+  
+  }
 
 
   }
