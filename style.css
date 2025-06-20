@@ -519,14 +519,6 @@ div .p4 {
     animation: glow 1s ease-in-out infinite alternate;
   }
   
-  .html {
-
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Adjust values for glow intensity */
-  
-    padding: 0px; /* Optional padding for better visual effect */
-  
-  }
-
 
  @media only screen and (max-width: 375px) {
   body {
